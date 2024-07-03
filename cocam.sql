@@ -158,10 +158,15 @@ from employees e
 where e.department_id = (select d.department_id from employees d where d.last_name = 'Zlotkey');
 
 --26
+--select e.last_name,e.department_id,e.job_id
+--from employees e
+--join departments d on e.department_id = d.department_id
+--where d.location_id = 1700;
+
 select e.last_name,e.department_id,e.job_id
 from employees e
 join departments d on e.department_id = d.department_id
-where d.location_id = 1700;
+where d.location_id = 1800;
 
 --27
 select e.employee_id,e.last_name,e.manager_id
