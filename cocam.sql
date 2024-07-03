@@ -5,7 +5,7 @@ where e.hire_date between date '2001-02-12' and  date '2005-01-05';
 --4
 select e.last_name,e.job_id
 from employees e
-where e.department_id = 20 or e.department_id = 50;
+where e.department_id = 25 or e.department_id = 50;
 --5
 select *
 from employees e
